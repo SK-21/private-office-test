@@ -62,7 +62,8 @@ padding-top:10%;
 /*************section 2 start **********/
 .section2{
    position:absolute;
-       background:url("bg2.jpg");
+       /*background:url("bg2.jpg");*/
+    background:url("https://wallpapercave.com/wp/I5sQdc0.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         display: none;
