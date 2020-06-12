@@ -1,0 +1,129 @@
+
+/***my css style****/
+.content{
+  /*  
+  z-index:2;
+  /*background:#ca7e05;*/
+   margin-top:6rem;
+}
+
+/***************************my style csss*******************/
+
+.carousel-inner .carousel-item{
+  border:3px solid #633d00;
+}
+ .carousel-inner .carousel-item .no-gutters .card-img{
+overflow:hidden;
+padding-left:0.88rem;
+ 
+}
+.carousel-inner .carousel-item .card{
+  max-width:100%;
+}
+
+.carousel-item .card .card-body .card-title {
+  text-align:center; font-size:2rem; color:#fa9f0c!important; line-height:2.4rem; text-align:center; 
+}
+.carousel-item .card .card-body {
+    text-align:center; font-size:2rem; color:#ca7e05; line-height:2.4rem; padding-top:8rem;
+  }
+
+
+/***********responsive*************/
+  @media only screen and (max-width: 600px) {
+    
+    body{
+  
+     
+    }
+    /* banner section**/
+.content{
+  margin-top:3rem;
+}
+    .carousel-inner .carousel-item{
+      border:none;
+      max-width:75%;
+      margin-left:3.5rem;
+   
+    }
+    .carousel-item .card .card-body .card-title {
+      text-align:center; font-size:1.3rem; color:#fa9f0c!important; line-height:2rem; text-align:center; 
+      padding-top:-1rem;
+    }
+  .card .card-title{
+     
+   font-size:1rem;
+    
+  }
+  .carousel-inner .carousel-item .no-gutters{
+    margin:1rem;
+  }
+  .carousel-inner .carousel-item .no-gutters .card-body{
+    padding:1rem;
+  }
+  .carousel-inner .carousel-item .no-gutters .card-img{
+    outline:none;
+    overflow:hidden;
+    margin-left:-0.4rem;
+    }
+
+    /***********important pg section******************/
+    .text-size-big{
+font-size:1rem!important;
+line-height:28px;
+padding:0 1.2rem 0 1.2rem;
+    }
+    /************************************/
+.page-section .container .card{
+  margin-left:5rem;
+}
+
+}
+
+
+/*
+@media only screen and (min-width: 600px){
+   body{
+      font: 16px/28px 'Open Sans', sans-serif;
+      color: #333;
+      position: relative;
+      background-color: #9c6101;
+      background:url("https://cdn.pixabay.com/photo/2016/09/10/13/34/vintage-1659117_960_720.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height:100vh;
+     
+    }
+        /* banner section**
+.content{
+  margin-top:3rem;
+}
+    .carousel-inner .carousel-item{
+      border:none;
+      max-width:75%;
+      margin-left:3.5rem;
+   
+    }
+    .carousel-item .card .card-body .card-title {
+      text-align:center; font-size:1.3rem; color:#fa9f0c!important; line-height:2rem; text-align:center; 
+      padding-top:-1rem;
+    }
+  .card .card-title{
+     
+   font-size:1rem;
+    
+  }
+  .carousel-inner .carousel-item .no-gutters{
+    margin:1rem;
+  }
+  .carousel-inner .carousel-item .no-gutters .card-body{
+    padding:1rem;
+  }
+  .carousel-inner .carousel-item .no-gutters .card-img{
+    outline:none;
+    overflow:hidden;
+    margin-left:-0.4rem;
+    }
+
+}*/
+
