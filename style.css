@@ -130,33 +130,7 @@ padding-top:10%;
 /********************section 2 end*********************/
 
 /***********Media queries************/
-/*
-@media only screen and (max-width: 320px){
-  .logo-first-pg{
-    filter: brightness(1);
-  width:95%;
-  margin-top:30%;
 
- display:block;
- margin-left:auto;
- margin-right:auto;
-  }
- 
- 
-}
-@media only screen and (max-width:480px){
-  .logo-first-pg{
-    filter: brightness(1);
-  width:95%;
-  margin-top:30%;
-
- display:block;
- margin-left:auto;
- margin-right:auto;
-  }
- 
- 
-}*/
 @media only screen and (max-width: 600px){
   .logo-first-pg{
     position: static;
@@ -173,7 +147,7 @@ padding-top:10%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top:20%;
+    
     
 }
  .center button{
@@ -189,7 +163,7 @@ padding-top:10%;
 }
 .btn-frame{
   /*padding-top:20%;*/
-  width: 50%;
+  width: 80%;
 display:block;
 margin-left:auto;
 margin-right:auto;
