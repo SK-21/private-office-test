@@ -12,13 +12,14 @@ position:absolute;
     display: block;
     width: 100%;
     height: 100vh;
-background: url("https://cdn.pixabay.com/photo/2016/09/10/13/34/vintage-1659117_960_720.jpg");
+background: url("https://image.freepik.com/free-photo/paperboard-yellow-texture_95678-83.jpg");
    background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
 
 }
 .logo-first-pg{
+max-width:55%;
 justify-content: center;
 text-align:center;
 margin-top:13%;
@@ -27,6 +28,8 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 /*position: relative;*/
+    filter: contrast(1.3);
+filter: saturate(1.5);
 }
 
 
@@ -38,7 +41,7 @@ margin-right:auto;
  margin-right:auto;
  width: 30%;
 padding-top:10%;
-  margin-top:20%;
+
 }
 .center{
     position: absolute;
@@ -135,7 +138,7 @@ padding-top:10%;
 @media only screen and (max-width: 600px){
   .logo-first-pg{
     position: static;
-  width:95%;
+  max-width:100%!important;
   margin-top:13%;
  display:block;
  margin-left:auto;
@@ -173,7 +176,7 @@ margin-right:auto;
 }
 @media only screen and (max-width: 768px) {
     .logo-first-pg{
-    width:95%;
+max-width:100%!important;
     margin-top:13%;
    display:block;
    margin-left:auto;
