@@ -18,6 +18,18 @@ background: url("https://image.freepik.com/free-photo/paperboard-yellow-texture_
     background-size: cover;
 
 }
+.logo{
+  max-width:100%;
+
+  margin-top:7%;
+  filter: brightness(0);
+  filter: contrast(1.3);
+  filter: saturate(1.5);
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
 .logo-first-pg{
 max-width:55%;
 justify-content: center;
@@ -62,7 +74,14 @@ padding-top:12%!important;
     text-align:center;
     cursor: pointer;
 }
-
+.newimg{
+  position:absolute;
+z-index:999;
+bottom:0px;
+z-index:5;  height:250px;
+width:100%;
+opacity:0.3;
+}
 /*************section 2 start **********/
 .section2{
    position:absolute;
