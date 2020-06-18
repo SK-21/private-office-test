@@ -77,11 +77,12 @@ padding-top:12%!important;
 .newimg{
   position:absolute;
 z-index:999;
-bottom:0px;
-z-index:5;  height:250px;
+bottom:0;
+z-index:5;  height:40vh;
 width:100%;
-opacity:0.3;
+filter:contrast(1);
 }
+
 /*************section 2 start **********/
 .section2{
    position:absolute;
