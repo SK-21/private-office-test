@@ -76,11 +76,11 @@ padding-top:12%!important;
 }
 .newimg{
   position:absolute;
-z-index:999;
 bottom:0;
 z-index:5;  height:40vh;
 width:100%;
-filter:contrast(1);
+opacity:0.3;
+ 
 }
 
 /*************section 2 start **********/
@@ -196,7 +196,7 @@ margin-right:auto;
  position: static;
 }
     .newimg{max-height:100vh;
-     margin-bottom:2% ;}
+     margin-bottom:5% ;}
 }
 @media only screen and (max-width: 768px) {
     .logo-first-pg{
