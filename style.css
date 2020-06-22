@@ -196,9 +196,11 @@ margin-right:auto;
  position: static;
 }
     .newimg{max-height:100vh;
-     margin-bottom:5% ;}
+     margin-bottom:9% ;}
 }
 @media only screen and (max-width: 768px) {
+    .newimg{max-height:100vh;
+     margin-bottom:5% ;}
     .logo-first-pg{
 max-width:100%!important;
     margin-top:13%;
