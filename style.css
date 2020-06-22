@@ -5,7 +5,7 @@ body{
 
     position:relative;
 }
-/************section 1  start************/
+/************section 1  start************
 
 .section1{
 position:absolute;
@@ -29,7 +29,7 @@ background: url("https://image.freepik.com/free-photo/paperboard-yellow-texture_
   margin-left:auto;
   margin-right:auto;
 
-}
+}*/
 .logo-first-pg{
 max-width:55%;
 justify-content: center;
@@ -44,9 +44,9 @@ margin-right:auto;
 filter: saturate(1.5);
 }
 
-
+/*
 .btn-frame{
-/*position: absolute;*/
+
     cursor: pointer;
  display:block;
  margin-left:auto;
@@ -73,7 +73,7 @@ padding-top:12%!important;
     outline:none;
     text-align:center;
     cursor: pointer;
-}
+}*/
 .newimg{
   position:absolute;
 bottom:0;
@@ -166,7 +166,7 @@ opacity:0.3;
  margin-left:auto;
  margin-right:auto;
  padding-top:15%;
-  }
+  }/*
   .center{
     margin-left:1%;
     position: static;
@@ -188,13 +188,12 @@ opacity:0.3;
     cursor: pointer;
 }
 .btn-frame{
-  /*padding-top:20%;*/
   width: 80%;
 display:block;
 margin-left:auto;
 margin-right:auto;
  position: static;
-}
+}*/
     .newimg{max-height:100vh;
      margin-bottom:9% ;}
 }
@@ -207,7 +206,7 @@ max-width:100%!important;
    display:block;
    margin-left:auto;
    margin-right:auto;
-    }
+    }/*
     .btn-frame{
       padding-top:20%;
      display:block;
@@ -238,19 +237,9 @@ max-width:100%!important;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    }/*
-    .dropdown {
-        float: left;
-        overflow: hidden;
-      }*/
-      /**section 2**/
+    }*/
+    
       
 }
 
-
-/* Optional: Style the caret down icon 
-.fa-caret-down {
-float: right;
-padding-right: .3rem;
-}*/
 
