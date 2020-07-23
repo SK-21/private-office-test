@@ -1,129 +1,372 @@
 
-/***my css style****/
-.content{
-  /*  
-  z-index:2;
-  /*background:#ca7e05;*/
-   margin-top:6rem;
+/**logo main***/
+.logo img{
+  max-width:88%; margin-bottom:-5%; margin-top:-4%;
 }
 
-/***************************my style csss*******************/
+/***slide carousel****/
+.content{
+
+   margin-top:6rem;
+   max-width: 1020px;
+}
 
 .carousel-inner .carousel-item{
   border:3px solid #633d00;
 }
- .carousel-inner .carousel-item .no-gutters .card-img{
+ .carousel-inner .carousel-item
+  .no-gutters .card-img{
 overflow:hidden;
 padding-left:0.88rem;
  
 }
-.carousel-inner .carousel-item .card{
-  max-width:100%;
-}
+
 
 .carousel-item .card .card-body .card-title {
-  text-align:center; font-size:2rem; color:#fa9f0c!important; line-height:2.4rem; text-align:center; 
+  text-align:center; font-size:1.8rem;
+   color:#fa9f0c!important; line-height:2.4rem; 
+}
+.carousel-item .card .card-body .card-text{
+  text-align:center;  font-size:1rem; 
+  color:#b87304; line-height:.5rem;
+  font-weight: 500;
 }
 .carousel-item .card .card-body {
-    text-align:center; font-size:2rem; color:#ca7e05; line-height:2.4rem; padding-top:8rem;
+    text-align:center; font-size:2rem;
+     color:#ca7e05; line-height:2.4rem; 
+     padding-top:8rem;
   }
 
 
-/***********responsive*************/
-  @media only screen and (max-width: 600px) {
-    
-    body{
+/******language dropdown start *****/
+.new .dropdown{
+  position: absolute; top:50%; left:50%;  transform: translate(-50%,-50%); z-index:5;
+  margin-left:1%;
+  margin-top:0.1%;
+  z-index: 2;
+  cursor: pointer;
   
-     
+  
+}
+
+.btn {
+      margin-top:-15%;
+      margin-right: -20%;
+      cursor: pointer;
+     margin-right:1rem;
+     border: none!important;
+     outline: none!important;
+     padding:0.5rem;
+     background-color: #633d00;
+     color:white;
+     font-weight:500;
+     overflow-y: auto;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+  max-height:100px;
+
+
+}
+  .force-scroll {
+    overflow-y: scroll;
+    height: 130px;
+    
     }
+.btn:hover {
+    background-color: #633d00!important;
+    color:#f79a06;
+
+  }
+  ul.dropdown-menu {
+      
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100px;
+    font-size:1rem;
+    text-align: left;
+    list-style: none;
+    margin:0!important;
+    padding:0!important;
+    
+  }
+  ul.dropdown-menu li {
+    border-bottom:0.6px solid rgba(196, 195, 195, 0.863) ;
+  }
+  ul.dropdown-menu li a{
+    border:none;
+    padding:2px 15px 2px 10px;
+    text-decoration: none;
+    font-size:1rem;
+  }
+  ul.dropdown-menu li a:hover{
+    color:#f79a06;
+   background-color: #fff;
+  }
+
+     /* Style to reverse the caret icon from pointing downwards to upwards */
+     .caret.caret-up {
+      border-top-width: 0;
+      border-bottom: 4px solid #fff;
+    }
+
+
+  
+/********Introduction 2nd part********/
+.introduction{
+  margin-top:15rem;
+}
+.introduction .section-title{
+  font-size:2rem;
+}
+.introduction  .intro-text{
+  color:#000; 
+  text-align: justify; 
+  text-transform: capitalize;
+  font-size:16px;
+   line-height: 26px; 
+  padding-top:3rem;
+}
+.items img{
+  max-width:100%;
+    margin-top:2rem; margin-bottom:2rem; 
+      padding:0.4rem; background:#fff;
+      position:relative;
+}
+.items img:hover{
+  box-shadow: 5px 5px 5px 5px rgba(196, 195, 195, 0.863);
+}
+.items .image-text{
+  max-width:100%;
+  margin-top:1rem; /*position: absolute; 
+  top:69%;  left:12%; */
+}
+
+.intro-text-2{
+  
+  color:#000; text-align:justify; 
+  line-height:26px; padding:2rem 0 0 0;
+  font-size:16px; 
+}  
+/****related website section********/
+.page-content-wrap .section-sub-title{
+  font-size:2rem; color:#000; padding-bottom: 3rem!important;
+}
+.page-content-wrap .rltweb-img{
+margin:0rem 0 1rem 0; 
+ max-width:50%; padding:10px;  
+  border-radius: 50%; background: white;
+border:0.5px solid rgba(196, 195, 195, 0.863);
+}
+.page-content-wrap .rltweb-link {
+  margin-left:-80px;
+  padding-top:1.5rem;
+text-decoration:underline;
+  color:#000!important;  font-weight:500; font-size:14px;
+}
+.page-content-wrap .rltweb-link :hover{
+  text-decoration:none!important; color:#f79a06; 
+}
+
+.portfolio-item{
+  margin-bottom:20px;
+}
+
+
+
+                                 /***********media queries*************/
+@media only screen and (max-width: 600px) {
+ 
+  /**logo main***/  
+.logo img{
+        max-width:100%; margin-top:-10%; padding:0!important;
+      }
     /* banner section**/
 .content{
   margin-top:3rem;
+  max-width: 100%;
 }
-    .carousel-inner .carousel-item{
+.carousel-inner .carousel-item .card{
+  margin:1rem!important;
+}
+.carousel-inner .carousel-item{
       border:none;
-      max-width:75%;
-      margin-left:3.5rem;
-   
-    }
-    .carousel-item .card .card-body .card-title {
-      text-align:center; font-size:1.3rem; color:#fa9f0c!important; line-height:2rem; text-align:center; 
-      padding-top:-1rem;
-    }
-  .card .card-title{
-     
-   font-size:1rem;
+      max-width:95%;
+}
     
+.carousel-item .card .card-body .card-title {
+      text-align:center; 
+      font-size:1.3rem; 
+      line-height:26px;
+      text-align:center; 
+      padding-top:-1rem;
+      
+    }
+    .carousel-item .card .card-body .card-text{
+      line-height:1.5rem;
+    }
+.card .card-title{
+   font-size:1rem;
   }
-  .carousel-inner .carousel-item .no-gutters{
+.carousel-inner .carousel-item .no-gutters{
     margin:1rem;
   }
-  .carousel-inner .carousel-item .no-gutters .card-body{
-    padding:1rem;
+.carousel-inner .carousel-item .no-gutters .card-body{
+    padding:0.3rem;
   }
-  .carousel-inner .carousel-item .no-gutters .card-img{
+.carousel-inner .carousel-item .no-gutters .card-img{
     outline:none;
     overflow:hidden;
     margin-left:-0.4rem;
+    height:250px!important;
     }
 
-    /***********important pg section******************/
-    .text-size-big{
-font-size:1rem!important;
-line-height:28px;
+    /***********important -section******/
+.text-size-big{
+font-size:0.8rem!important;
+line-height:26px;
 padding:0 1.2rem 0 1.2rem;
     }
-    /************************************/
+    /*********/
 .page-section .container .card{
   margin-left:5rem;
 }
 
+  .logosm-footer{
+  margin-top:0.8rem!important;
+  max-width:25%!important;
+  }
+/***********language dropdown ************/
+.btn {
+  padding:0.2rem;
+  font-weight: 300;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top:-60%;
+  letter-spacing: 0.5px!important;
+  line-height: 24px;
+  }
+  
+  ul.dropdown-menu {
+        min-width:70px;
+      }
+  
+  ul.dropdown-menu li a{
+        font-weight: 400;
+        font-size:0.8rem;
+      }
+  
+       /* Style to reverse the caret icon from pointing downwards to upwards */
+    .caret.caret-up {
+          border-top-width: 0;
+          border-bottom: 1px solid #fff;}
+          /*********introduction section*******/
+.items img{
+  max-width:100%!important;
+    display:block;
+    margin-left:auto; margin-right:auto;
+}
+.items .image-text{  text-align:center!important; font-size:1.5rem;
+}
+.introduction  .intro-text{
+  font-size:14px; line-height:22px;
 }
 
-
-/*
-@media only screen and (min-width: 600px){
-   body{
-      font: 16px/28px 'Open Sans', sans-serif;
-      color: #333;
-      position: relative;
-      background-color: #9c6101;
-      background:url("https://cdn.pixabay.com/photo/2016/09/10/13/34/vintage-1659117_960_720.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      height:100vh;
-     
+.rltweb-link {
+ 
+  margin:1.2rem 0 1rem 0; }
+/* *******scrollbar******* */
+      ::-webkit-scrollbar {
+        -webkit-appearance: none;
     }
-        /* banner section**
-.content{
-  margin-top:3rem;
-}
-    .carousel-inner .carousel-item{
-      border:none;
-      max-width:75%;
-      margin-left:3.5rem;
-   
-    }
-    .carousel-item .card .card-body .card-title {
-      text-align:center; font-size:1.3rem; color:#fa9f0c!important; line-height:2rem; text-align:center; 
-      padding-top:-1rem;
-    }
-  .card .card-title{
-     
-   font-size:1rem;
     
-  }
-  .carousel-inner .carousel-item .no-gutters{
-    margin:1rem;
-  }
-  .carousel-inner .carousel-item .no-gutters .card-body{
-    padding:1rem;
-  }
-  .carousel-inner .carousel-item .no-gutters .card-img{
-    outline:none;
-    overflow:hidden;
-    margin-left:-0.4rem;
+    ::-webkit-scrollbar:vertical {
+        width: 13px;
+    }
+    
+    ::-webkit-scrollbar:horizontal {
+        height: 12px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(121, 84, 4, 0.801);
+        border-radius: 10px;
+        border: 2px solid #ffffff;
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;  
+        background-color: #ffffff; 
     }
 
-}*/
+}
+
+
+@media only screen and (max-width: 760px){
+
+  #header.header-4 .top-header{
+		padding: 30px 0;
+	}
+  .items img{
+    max-width:100%!important;
+      display:block;
+      margin-left:auto; margin-right:auto;
+  }
+  .rltweb-img{
+  margin-bottom:1.5rem;
+  max-width:10%;
+   }
+ .rltweb-link {
+ 
+     margin:1.2rem 0 1rem 0; 
+  margin-left:-5rem;
+   }
+ }
+ @media only screen and (max-width: 992px) {
+  #header.header-4 .top-header{
+		padding: 30px 0;
+	}
+   .rltweb-img{
+ max-width:70%!important;
+ margin:0!important;
+ 
+   }
+   .rltweb-link{
+     font-size:1rem; 
+     padding:0 0 0 1.8rem!important;
+   }
+ }
+ 
+ 
+ @media only screen and (min-width:1020px){
+   .items img{
+     max-width:100%!important;
+ }
+ .page-content-wrap .rltweb-link {
+  margin-left:-80px;
+  padding-top:1.5rem;}
+ }
+ @media only screen and (max-width:992px){
+     /**logo main***/  
+.logo img{
+  max-width:100%;
+}
+   .items img{
+     max-width:100%!important;
+  
+   }
+   .intro-text-2{
+    font-size:14px; line-height:22px; padding-top:2rem!important;
+   }
+   .introduction  .intro-text{
+     font-size:14px; line-height:22px;
+   }
+ }
+
+                      /*************************media queries end***********************/
 
